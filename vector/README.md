@@ -6,7 +6,7 @@ This folder contains pyQGIS scripts for automating processes in QGIS environment
  - *Status*: In progress
 
  2. **Merge CSV point data to existing vector layer on QGIS project**
- - [Script]()
- - *Status*: Completed (to be uploaded)
+ - [Script](https://github.com/Tars4815/pyQGIS_scripts/blob/main/vector/csv_to_existing_layer.py)
+ - *Status*: Completed (to be cleaned)
 
 *// Updates in progress //*
