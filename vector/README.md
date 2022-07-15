@@ -9,4 +9,8 @@ This folder contains pyQGIS scripts for automating processes in QGIS environment
  - [Script](https://github.com/Tars4815/pyQGIS_scripts/blob/main/vector/csv_to_existing_layer.py)
  - *Status*: Completed
 
+ 3. **Validate point features based on position within buffer and attributes values**
+ - [Script](https://github.com/Tars4815/pyQGIS_scripts/blob/main/vector/validation_test_for_location_attributes.py)
+ - *Status*: Completed
+
 *// Updates in progress //*

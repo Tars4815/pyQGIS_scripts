@@ -149,9 +149,11 @@ caps=prov.capabilities()
 #Add length field
 if caps & QgsVectorDataProvider.AddAttributes:
     lunghezza = prov.addAttributes([QgsField('length', QVariant.Double)])
+    scale_f = prov.addAttributes([QgsField('scale_f', QVariant.Double)])
     segments.updateFields()
 #Define expression for field calculating
 expression = QgsExpression('$length')
+expression1 = QgsExpression('1000/$length')
 context = QgsExpressionContext()
 context.appendScopes(QgsExpressionContextUtils.globalProjectLayerScopes(segments))
 #Update features in layer with given expression
@@ -159,6 +161,7 @@ with edit(segments):
     for f0 in segments.getFeatures():
         context.setFeature(f0)
         f0['length']=expression.evaluate(context)
+        f0['scale_f']=expression1.evaluate(context)
         segments.updateFeature(f0)
 #Load segment layer with newly created features to the map canvas
 QgsProject.instance().addMapLayer(segments)
