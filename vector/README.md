@@ -13,4 +13,8 @@ This folder contains pyQGIS scripts for automating processes in QGIS environment
  - [Script](https://github.com/Tars4815/pyQGIS_scripts/blob/main/vector/validation_test_for_location_attributes.py)
  - *Status*: Completed
 
+ 4. **Extract vertices from an unordered multipart line**
+ - [Script](https://github.com/Tars4815/pyQGIS_scripts/blob/main/vector/fixing_unordered_multipart_line.py)
+ - *Status*: Completed
+
 *// Updates in progress //*
