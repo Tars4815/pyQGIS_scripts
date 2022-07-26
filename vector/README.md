@@ -17,4 +17,8 @@ This folder contains pyQGIS scripts for automating processes in QGIS environment
  - [Script](https://github.com/Tars4815/pyQGIS_scripts/blob/main/vector/fixing_unordered_multipart_line.py)
  - *Status*: Completed
 
+ 5. **Points along line at given distance based on line attribute**
+ - [Script](https://github.com/Tars4815/pyQGIS_scripts/blob/main/vector/point_along_line_based_on_line_attribute.py)
+ - *Status*: Completed
+
 *// Updates in progress //*
